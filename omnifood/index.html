@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Omnifood</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="queries.css">
+</head>
+<body>
+    <header class="header sticky" id="logo">
+        <img src="../omnifood/logo/logo.png" alt="logo" class="logo">
+        <nav class="main-nav">
+            <ul class="main-nav-list">
+                <li><a href="#how" class="main-nav-link">How it works</a></li>
+                <li><a href="#meal-view" class="main-nav-link">Meals</a></li>
+                <li><a href="#testimonial-view" class="main-nav-link">Testimonials</a></li>
+                <li><a href="#pricing-view" class="main-nav-link">Pricing</a></li>
+                <li><a href="#cta-view" class="main-nav-link try-free">Try for free</a></li>
+            </ul>
+        </nav>
+        <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+    </header>
+    <main>
+    <section class="section-hero">
+        <div class="hero">
+            <div class="hero-text-box">
+                <h1 class="heading-primary">A healthy meal delivered to your door, every single day </h1>
+                <p class="hero-description">
+                    The smart 265-days-per-year food subscribtion that will make you eat healthy agai. 
+                    Tailored to your persanal tastes and nutritional needs.
+                    We have delivered 250,000+ meals last year!
+                </p>
+                <a href="#cta-view" class="btn btn----full margin-right-sm">Start eating well</a>
+                <a href="#how" class="btn btn----outline">Learn more <b>&darr;</b></a>
+                <div class="delivered-meals">
+                    <div class="delivred-img">
+                        <img src="../omnifood/customers/siranjeevi.jpg" alt="cus1">
+                        <img src="../omnifood/customers/customer-1.jpg" alt="cus1">
+                        <img src="../omnifood/customers/customer-2.jpg" alt="cus2">
+                        <img src="../omnifood/customers/customer-3.jpg" alt="cus3">
+                        <img src="../omnifood/customers/customer-4.jpg" alt="cus4">
+                        <img src="../omnifood/customers/customer-5.jpg" alt="cus5" object-fit:none;>
+                        <img src="../omnifood/customers/customer-6.jpg" alt="cus6" object-fit:none;>
+                    </div>
+                    <p class="delivery-text"><span>250,000+ </span>meals last year!</p>
+                </div>
+            </div>
+            <div class="hero-img-box">
+                <img src="../omnifood/hero.webp" alt="food img" class="hero-img">
+            </div>
+        </div>
+    </section>
+    <section class="section-featured">
+        <div class="container">
+            <h2 class="headeing-featured-in">As featured in</h2>
+            <div class="logo">
+                <img src="../omnifood/as feature/business-insider.png" alt="insider">
+                <img src="../omnifood/as feature/forbes.png" alt="forbes">
+                <img src="../omnifood/as feature/techcrunch.png" alt="techcrunch">
+                <img src="../omnifood/as feature/the-new-york-times.png" alt="times">
+                <img src="../omnifood/as feature/usa-today.png" alt="today">
+            </div>
+        </div>
+    </section>
+    <section class="section-how" id="how">
+        <div class="container">
+            <span class="subheading">How it works</span>
+            <h2 class="heading-secondary">Your daily dose of health in 3 simple steps</h2>
+        </div>
+        <div class="container grid grid--2-cols">
+            <!----  Step 01 -->
+            <div class="step-text-box">
+                <p class="step-number">01</p>
+                <h3 class="heading-tertiary">Tell us what you like (and what not)</h3>
+                <p class="step-description">
+                    Never again waste time thinking about what to eat! 
+                    Omnifood AI will create a 100% personalized weekly meal plan just for you. 
+                    It makes sure you get all the nutrients and vitamins you need, 
+                    no matter what diet you follow!
+                </p>
+            </div>
+            <div class="step-img-box">
+                <img src="../omnifood/App Screen/app-screen-1.png" alt="app screen1" class="step-img">
+            </div>
+                <!----  Step 02 -->
+                <div class="step-img-box">
+                    <img src="../omnifood/App Screen/app-screen-2.png" alt="app screen1" class="step-img">
+                </div>
+                <div class="step-text-box">
+                    <p class="step-number">02</p>
+                    <h3 class="heading-tertiary">Approve your weekly meal plan</h3>
+                    <p class="step-description">
+                        Once per week, approve the meal plan generated for you by Omnifood AI. 
+                        You can change ingredients, swap entire meals, 
+                        or even add your own recipes.
+                    </p>
+                </div>
+              
+                    <!----  Step 03 -->
+            <div class="step-text-box">
+                <p class="step-number">03</p>
+                <h3 class="heading-tertiary">Receive meals at convenient time</h3>
+                <p class="step-description">
+                    Best chefs in town will cook your selected meal every day, 
+                    and we will deliver it to your door whenever works best for you. 
+                    You can change delivery schedule and address daily!
+                </p>
+            </div>
+            <div class="step-img-box">
+                <img src="../omnifood/App Screen/app-screen-3.png" alt="app screen1" class="step-img">
+            </div>
+        </div>
+    </section>
+    <section class="section-meals" id="meal-view">
+        <div class="container center-text">
+            <span class="subheading">Meals</span>
+            <h2 class="heading-secondary">Omnifood AI choose 5,000+ recipes</h2>
+        </div>
+        <div class="container grid grid--3-cols margin-bottom-md">
+            <div class="meal">
+                <img src="../omnifood/meals/meal-1.jpg" alt="meal1" class="meal-img">
+                <div class="meal-content">
+                <div class="meal-tags"> 
+                    <span class="tag">Vegetarian</span>
+                </div>
+                
+                <p class="meal-title">Japanese Gyozas</p>
+                <ul class="meal-attributes">
+                    <li class="meal-attribute">
+                        <svg class="meal-icon" style="height: 30px; width:30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M14.4527 8.48679L12.1842 3.93896L11.4471 4.74309C7.30945 9.25693 6 11.9609 6 14.2499C6 17.422 8.73452 19.909 12 19.909C15.2655 19.909 18 17.422 18 14.2499C18 13.3179 17.6746 12.3124 17.2381 11.3658C16.796 10.4069 16.2091 9.44335 15.62 8.57788L15.1065 7.82342L14.4527 8.48679ZM14.0473 11.0348L14.8818 10.1883C15.256 10.7846 15.6008 11.397 15.876 11.9938C16.2765 12.8625 16.5 13.6357 16.5 14.2499C16.5 15.0941 16.2233 15.8901 15.7438 16.5554C15.7479 16.4935 15.75 16.4309 15.75 16.3675C15.75 15.8056 15.5231 15.2413 15.2632 14.7624C14.9946 14.2679 14.6434 13.7798 14.2995 13.3507L13.8135 12.7443L13.4772 13.034L12.1744 10.8159L11.4903 11.4497C9.13721 13.6298 8.25 15.0508 8.25 16.3675C8.25 16.4309 8.25209 16.4935 8.25622 16.5554C7.77669 15.8901 7.5 15.0941 7.5 14.2499C7.5 12.6786 8.327 10.5308 11.8206 6.5705L14.0473 11.0348ZM13.0943 15.344L13.5948 14.9127C13.7259 15.1036 13.8447 15.2936 13.9449 15.4781C14.1632 15.8802 14.25 16.1791 14.25 16.3675C14.25 17.1171 13.4131 17.9999 12 17.9999C10.5869 17.9999 9.75 17.1171 9.75 16.3675C9.75 15.8235 10.0697 14.9464 11.8334 13.1972L13.0943 15.344Z" fill="#080341"></path> </g></svg>
+                        <span> <strong>650</strong> calories</span> 
+                    </li>
+                    <li class="meal-attribute">
+                       <svg class="meal-icon" style="height: 20px; width:20px" version="1.1" id="Uploaded to svgrepo.com" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .blueprint_een{fill:#111918;} .st0{fill:#0B1719;} </style> <path class="blueprint_een" d="M20.715,16.3c0.345-0.029,0.788,0,1.181,0.03c0.307,0.022,0.604,0.043,0.882,0.043 c0.542,0,1.332-0.069,1.93-0.667l7-7c0.391-0.391,0.391-1.023,0-1.414l-7-7c-0.391-0.391-1.023-0.391-1.414,0l-7,7 c-1.186,1.186-1.294,2.406-1.199,3.387L5.707,1.293C5.584,1.17,4.921,0.556,3.963,0.556c-0.426,0-1.061,0.128-1.67,0.737 c-0.318,0.318-0.465,0.786-0.449,1.43C1.908,5.269,4.8,12.617,9.911,17.675l-9.618,9.618c-0.391,0.391-0.391,1.023,0,1.414l3,3 c0.391,0.391,1.023,0.391,1.414,0L16,20.414l11.293,11.293C27.488,31.902,27.744,32,28,32s0.512-0.098,0.707-0.293l3-3 c0.391-0.391,0.391-1.023,0-1.414L20.715,16.3z M17.182,11.145c-0.174-1.012-0.241-1.671,0.525-2.438L24,2.414l1.439,1.439 l-4.793,4.793c-0.195,0.195-0.195,0.512,0,0.707C20.744,9.451,20.872,9.5,21,9.5s0.256-0.049,0.354-0.146l4.793-4.793l1.293,1.293 l-4.793,4.793c-0.195,0.195-0.195,0.512,0,0.707C22.744,11.451,22.872,11.5,23,11.5s0.256-0.049,0.354-0.146l4.793-4.793L29.586,8 l-6.293,6.293c-0.009,0.008-0.093,0.081-0.516,0.081c-0.231,0-0.479-0.02-0.734-0.038c-0.323-0.024-0.658-0.048-0.991-0.048 c-0.753,0-1.857,0.104-2.759,1.005l-1.586-1.586C17.487,12.927,17.317,11.938,17.182,11.145z M4,29.586L2.414,28l9.638-9.638 c0.017-0.017,0.023-0.041,0.039-0.059c0.21,0.171,0.422,0.337,0.638,0.498C12.904,18.932,13.119,19,13.338,19h1.248L4,29.586z M28,29.586L16.414,18h-3.088C7.372,13.564,3.728,4.422,3.84,2.598c0.041-0.026,0.084-0.043,0.123-0.043 c0.113,0,0.271,0.098,0.33,0.152L29.586,28L28,29.586z"></path> </g></svg>
+                       <span>&nbsp;NutriScore &reg; <strong>74</strong></span> </li>
+                    <li  class="meal-attribute">
+                        <svg class="meal-icon" style="height: 30px; width:30px" fill="#000000" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <rect id="Icons" x="-448" y="-192" width="1280" height="800" style="fill:none;"></rect> <g id="Icons1" serif:id="Icons"> <g id="Strike"> </g> <g id="H1"> </g> <g id="H2"> </g> <g id="H3"> </g> <g id="list-ul"> </g> <g id="hamburger-1"> </g> <g id="hamburger-2"> </g> <g id="list-ol"> </g> <g id="list-task"> </g> <g id="trash"> </g> <g id="vertical-menu"> </g> <g id="horizontal-menu"> </g> <g id="sidebar-2"> </g> <g id="Pen"> </g> <g id="Pen1" serif:id="Pen"> </g> <g id="clock"> </g> <g id="external-link"> </g> <g id="hr"> </g> <g id="info"> </g> <g id="warning"> </g> <g id="plus-circle"> </g> <g id="minus-circle"> </g> <g id="vue"> </g> <g id="cog"> </g> <g id="logo"> </g> <path id="star-empty" d="M37.675,26.643l18.335,0l-14.834,10.777l5.666,17.438l-14.833,-10.777l-14.834,10.777l5.666,-17.438l-14.833,-10.777l18.335,0l5.666,-17.438c1.888,5.813 3.777,11.625 5.666,17.438Zm-8.407,4.026l-8.869,0l7.175,5.213l-2.74,8.435l7.175,-5.213l7.175,5.213l-2.741,-8.435l7.175,-5.213l-8.869,0l-2.74,-8.434c-0.914,2.811 -1.827,5.623 -2.741,8.434Z" style="fill-rule:nonzero;"></path> <g id="radio-check"> </g> <g id="eye-slash"> </g> <g id="eye"> </g> <g id="toggle-off"> </g> <g id="shredder"> </g> <g id="spinner--loading--dots-" serif:id="spinner [loading, dots]"> </g> <g id="react"> </g> <g id="check-selected"> </g> <g id="turn-off"> </g> <g id="code-block"> </g> <g id="user"> </g> <g id="coffee-bean"> </g> <g id="coffee-beans"> <g id="coffee-bean1" serif:id="coffee-bean"> </g> </g> <g id="coffee-bean-filled"> </g> <g id="coffee-beans-filled"> <g id="coffee-bean2" serif:id="coffee-bean"> </g> </g> <g id="clipboard"> </g> <g id="clipboard-paste"> </g> <g id="clipboard-copy"> </g> <g id="Layer1"> </g> </g> </g></svg>
+                       <span><strong>4.9</strong> rating (537)</span> 
+                    </li>
+                </ul>
+                </div>
+            </div>
+            <div class="meal">
+                <img src="../omnifood/meals/meal-2.jpg" alt="meal1" class="meal-img">
+                <div class="meal-content">
+                <div class="meal-tags"> 
+                    <span class="tag tag--vegan">Vegan</span>
+                    <span class="tag tag--placed">placed</span>
+                </div>
+                
+                <p class="meal-title">Avocado Salad</p>
+                <ul class="meal-attributes">
+                    <li class="meal-attribute">
+                        <svg class="meal-icon" style="height: 30px; width:30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M14.4527 8.48679L12.1842 3.93896L11.4471 4.74309C7.30945 9.25693 6 11.9609 6 14.2499C6 17.422 8.73452 19.909 12 19.909C15.2655 19.909 18 17.422 18 14.2499C18 13.3179 17.6746 12.3124 17.2381 11.3658C16.796 10.4069 16.2091 9.44335 15.62 8.57788L15.1065 7.82342L14.4527 8.48679ZM14.0473 11.0348L14.8818 10.1883C15.256 10.7846 15.6008 11.397 15.876 11.9938C16.2765 12.8625 16.5 13.6357 16.5 14.2499C16.5 15.0941 16.2233 15.8901 15.7438 16.5554C15.7479 16.4935 15.75 16.4309 15.75 16.3675C15.75 15.8056 15.5231 15.2413 15.2632 14.7624C14.9946 14.2679 14.6434 13.7798 14.2995 13.3507L13.8135 12.7443L13.4772 13.034L12.1744 10.8159L11.4903 11.4497C9.13721 13.6298 8.25 15.0508 8.25 16.3675C8.25 16.4309 8.25209 16.4935 8.25622 16.5554C7.77669 15.8901 7.5 15.0941 7.5 14.2499C7.5 12.6786 8.327 10.5308 11.8206 6.5705L14.0473 11.0348ZM13.0943 15.344L13.5948 14.9127C13.7259 15.1036 13.8447 15.2936 13.9449 15.4781C14.1632 15.8802 14.25 16.1791 14.25 16.3675C14.25 17.1171 13.4131 17.9999 12 17.9999C10.5869 17.9999 9.75 17.1171 9.75 16.3675C9.75 15.8235 10.0697 14.9464 11.8334 13.1972L13.0943 15.344Z" fill="#080341"></path> </g></svg>
+                        <span> <strong>400</strong> calories</span> 
+                    </li>
+                    <li class="meal-attribute">
+                       <svg class="meal-icon" style="height: 20px; width:20px" version="1.1" id="Uploaded to svgrepo.com" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .blueprint_een{fill:#111918;} .st0{fill:#0B1719;} </style> <path class="blueprint_een" d="M20.715,16.3c0.345-0.029,0.788,0,1.181,0.03c0.307,0.022,0.604,0.043,0.882,0.043 c0.542,0,1.332-0.069,1.93-0.667l7-7c0.391-0.391,0.391-1.023,0-1.414l-7-7c-0.391-0.391-1.023-0.391-1.414,0l-7,7 c-1.186,1.186-1.294,2.406-1.199,3.387L5.707,1.293C5.584,1.17,4.921,0.556,3.963,0.556c-0.426,0-1.061,0.128-1.67,0.737 c-0.318,0.318-0.465,0.786-0.449,1.43C1.908,5.269,4.8,12.617,9.911,17.675l-9.618,9.618c-0.391,0.391-0.391,1.023,0,1.414l3,3 c0.391,0.391,1.023,0.391,1.414,0L16,20.414l11.293,11.293C27.488,31.902,27.744,32,28,32s0.512-0.098,0.707-0.293l3-3 c0.391-0.391,0.391-1.023,0-1.414L20.715,16.3z M17.182,11.145c-0.174-1.012-0.241-1.671,0.525-2.438L24,2.414l1.439,1.439 l-4.793,4.793c-0.195,0.195-0.195,0.512,0,0.707C20.744,9.451,20.872,9.5,21,9.5s0.256-0.049,0.354-0.146l4.793-4.793l1.293,1.293 l-4.793,4.793c-0.195,0.195-0.195,0.512,0,0.707C22.744,11.451,22.872,11.5,23,11.5s0.256-0.049,0.354-0.146l4.793-4.793L29.586,8 l-6.293,6.293c-0.009,0.008-0.093,0.081-0.516,0.081c-0.231,0-0.479-0.02-0.734-0.038c-0.323-0.024-0.658-0.048-0.991-0.048 c-0.753,0-1.857,0.104-2.759,1.005l-1.586-1.586C17.487,12.927,17.317,11.938,17.182,11.145z M4,29.586L2.414,28l9.638-9.638 c0.017-0.017,0.023-0.041,0.039-0.059c0.21,0.171,0.422,0.337,0.638,0.498C12.904,18.932,13.119,19,13.338,19h1.248L4,29.586z M28,29.586L16.414,18h-3.088C7.372,13.564,3.728,4.422,3.84,2.598c0.041-0.026,0.084-0.043,0.123-0.043 c0.113,0,0.271,0.098,0.33,0.152L29.586,28L28,29.586z"></path> </g></svg>
+                       <span>&nbsp;NutriScore &reg; <strong>92</strong></span> </li>
+                    <li  class="meal-attribute">
+                        <svg class="meal-icon" style="height: 30px; width:30px" fill="#000000" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <rect id="Icons" x="-448" y="-192" width="1280" height="800" style="fill:none;"></rect> <g id="Icons1" serif:id="Icons"> <g id="Strike"> </g> <g id="H1"> </g> <g id="H2"> </g> <g id="H3"> </g> <g id="list-ul"> </g> <g id="hamburger-1"> </g> <g id="hamburger-2"> </g> <g id="list-ol"> </g> <g id="list-task"> </g> <g id="trash"> </g> <g id="vertical-menu"> </g> <g id="horizontal-menu"> </g> <g id="sidebar-2"> </g> <g id="Pen"> </g> <g id="Pen1" serif:id="Pen"> </g> <g id="clock"> </g> <g id="external-link"> </g> <g id="hr"> </g> <g id="info"> </g> <g id="warning"> </g> <g id="plus-circle"> </g> <g id="minus-circle"> </g> <g id="vue"> </g> <g id="cog"> </g> <g id="logo"> </g> <path id="star-empty" d="M37.675,26.643l18.335,0l-14.834,10.777l5.666,17.438l-14.833,-10.777l-14.834,10.777l5.666,-17.438l-14.833,-10.777l18.335,0l5.666,-17.438c1.888,5.813 3.777,11.625 5.666,17.438Zm-8.407,4.026l-8.869,0l7.175,5.213l-2.74,8.435l7.175,-5.213l7.175,5.213l-2.741,-8.435l7.175,-5.213l-8.869,0l-2.74,-8.434c-0.914,2.811 -1.827,5.623 -2.741,8.434Z" style="fill-rule:nonzero;"></path> <g id="radio-check"> </g> <g id="eye-slash"> </g> <g id="eye"> </g> <g id="toggle-off"> </g> <g id="shredder"> </g> <g id="spinner--loading--dots-" serif:id="spinner [loading, dots]"> </g> <g id="react"> </g> <g id="check-selected"> </g> <g id="turn-off"> </g> <g id="code-block"> </g> <g id="user"> </g> <g id="coffee-bean"> </g> <g id="coffee-beans"> <g id="coffee-bean1" serif:id="coffee-bean"> </g> </g> <g id="coffee-bean-filled"> </g> <g id="coffee-beans-filled"> <g id="coffee-bean2" serif:id="coffee-bean"> </g> </g> <g id="clipboard"> </g> <g id="clipboard-paste"> </g> <g id="clipboard-copy"> </g> <g id="Layer1"> </g> </g> </g></svg>
+                       <span><strong>4.9</strong> rating (441)</span> 
+                    </li>
+                </ul>
+                </div>
+            </div>
+            <div class="list-diets">
+                
+                <h3 class="heading-tertiary">Works with any diet:</h3>
+            <div class="list">
+                <li class="list-item"><svg class="list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg>
+                     <span>Vegetarian</span> </li>
+                <li class="list-item"><svg class="list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg>
+                     <span>Vegan</span> </li>
+                <li class="list-item"><svg class="list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg>
+                     <span>Pescatarian</span> </li>
+                <li class="list-item"><svg class="list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg>
+                     <span>Gluten-free</span> </li>
+                <li class="list-item"><svg class="list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg>
+                     <span>Lactose-free</span> </li>
+                <li class="list-item"><svg class="list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg>
+                     <span>Keto</span> </li>
+                <li class="list-item"><svg class="list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg>
+                     <span>Paleo</span> </li>
+                <li class="list-item"><svg class="list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg>
+                     <span>Low FODMAP</span> </li>
+                <li class="list-item"><svg class="list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg>
+                     <span>Kid friendly</span> </li>
+            </div>
+            </div>
+        </div>
+        <div class="container all-recipes">
+            <a href="" class="link">See all recipes &rarr;</a>
+        </div>
+    </section>
+    <section class="section-testimonials" id="testimonial-view">
+        <div class="testimonial-container">
+        <span class="subheading">Testimonials</span>
+        
+        <h2 class="heading-secondary">Once you try it, you can't go back</h2>
+        <div class="testimonials">
+            <figure class="testimonial">
+                <img src="../omnifood/tesimonial/dave.jpg" alt="customrer1" class="testimonial-img">
+                <blockquote class="testimonial-text">
+                    Inexpensive, healthy and great-tasting meals, 
+                    without even having to order manually! 
+                    It feels truly magical.
+                </blockquote>
+                <p class="testimonial-name">&mdash; Dave Bryson</p>
+            </figure>
+            <figure class="testimonial">
+                <img src="../omnifood/tesimonial/ben.jpg" alt="customrer2" class="testimonial-img">
+                <blockquote class="testimonial-text">
+                    The AI algorithm is crazy good, it chooses the right meals for me every time. It's amazing not to worry about food anymore!
+                </blockquote>
+                <p class="testimonial-name">&mdash; Dave Bryson</p>
+            </figure>
+            <figure class="testimonial">
+                <img src="../omnifood/tesimonial/steve.jpg" alt="customrer3" class="testimonial-img">
+                <blockquote class="testimonial-text">
+                    Omnifood is a life saver! I just started a company, so there's no time for cooking. I couldn't live without my daily meals now!
+                </blockquote>
+                <p class="testimonial-name">&mdash; Dave Bryson</p>
+            </figure>
+            <figure class="testimonial">
+                <img src="../omnifood/tesimonial/hannah.jpg" alt="customrer4" class="testimonial-img">
+                <blockquote class="testimonial-text">
+                    I got Omnifood for the whole family, and it frees up so much time! Plus, everything is organic and vegan and without plastic.
+                </blockquote>
+                <p class="testimonial-name">&mdash; Dave Bryson</p>
+            </figure>
+        </div>
+    </div>
+    <div class="gallery">
+        <figure class="gallery-item">
+            <img src="../omnifood/Food pic/pexels-ahmad-no-more-7593253.jpg" alt="arranged food">
+        </figure>
+        <figure class="gallery-item">
+            <img src="../omnifood/Food pic/pexels-dino-uniyal-14882284.jpg" alt="arranged food">
+        </figure>
+        <figure class="gallery-item">
+            <img src="../omnifood/Food pic/pexels-eneida-nieves-803963.jpg" alt="arranged food">
+        </figure>
+        <figure class="gallery-item">
+            <img src="../omnifood/Food pic/pexels-engin-akyurt-2347311.jpg" alt="arranged food">
+        </figure>
+        <figure class="gallery-item">
+            <img src="../omnifood/Food pic/pexels-jan-n-g-u-y-e-n-🍁-699953 (2).jpg" alt="arranged food">
+        </figure>
+        <figure class="gallery-item">
+            <img src="../omnifood/Food pic/pexels-marc-roy-1832016.jpg" alt="arranged food">
+        </figure>
+        <figure class="gallery-item">
+            <img src="../omnifood/Food pic/pexels-marvin-ozz-2474661.jpg" alt="arranged food">
+        </figure>
+        <figure class="gallery-item">
+            <img src="../omnifood/Food pic/pexels-pixabay-262897.jpg" alt="arranged food">
+        </figure>
+        <figure class="gallery-item">
+            <img src="../omnifood/Food pic/pexels-prabal-pratap-singh-9609842.jpg" alt="arranged food">
+        </figure>
+        <figure class="gallery-item">
+            <img src="../omnifood/Food pic/pexels-rajesh-tp-1633578.jpg" alt="arranged food">
+        </figure>
+        <figure class="gallery-item">
+            <img src="../omnifood/Food pic/pexels-saveurs-secretes-5410400.jpg" alt="arranged food">
+        </figure>
+        <figure class="gallery-item">
+            <img src="../omnifood/Food pic/pexels-tranmautritam-61180.jpg" alt="arranged food">
+        </figure>
+        
+    </div>
+    </section>
+    <section class="section-pricing" id="pricing-view">
+        <div class="container">
+            <span class="subheading">Pricing</span>
+            <h2 class="heading-secondary">
+                Eating well without breaking the bank
+            </h2>
+        </div>
+        <div  class="container grid grid--2-cols margin-bottom-md">
+        <div class="pricing-plan pricing-plan--starter">
+            <header class="plan-header">
+                <p class="plan-name">Starters</p>
+            <p class="plan-price"><span>$</span>399</p>
+            <p class="plan-text">Per months, That's just $23 per meal!</p>
+            </header>
+            
+            <ul class="list">
+                <li class="list-item"><svg class="list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg>
+                    <span>1 meal per day</span> </li>
+                <li class="list-item"><svg class="list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg>
+                        <span>Order from 11am and 9am</span> </li>
+                <li class="list-item"><svg class="list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg>
+                            <span>Delivery is free</span> </li>
+                            <li class="list-item"><svg class="list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 13">
+                                <polyline class="list-icon-close" fill="none"  points="1 1,6.5 6.5,12 1"/>
+                                <polyline class="list-icon-close" fill="none"  points="1 12,6.5 6.5,12 12"/>
+                              </svg></li>
+                
+            </ul>
+            <div class="plan-sign-up">
+            <a href="" class="btn btn----full margin-right-sm">Start eating well</a>
+           </div>
+        </div>
+        <div class="pricing-plan pricing-plan-complete">
+            <header class="plan-header">
+                <p class="plan-name">Complete</p>
+            <p class="plan-price"><span>$</span>649</p>
+            <p class="plan-text">Per months, That's just $11 per meal!</p>
+            </header>
+            
+            <ul class="list">
+                <li class="list-item"><svg class="list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg>
+                    <span>2 meals per day</span> </li>
+                <li class="list-item"><svg class="list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg>
+                        <span>Order 24/7</span> </li>
+                <li class="list-item"><svg class="list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg>
+                        <span>Delivery is free</span> </li>        
+                <li class="list-item"><svg class="list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg>
+                            <span>Get access to latest recipes</span> </li>
+            </ul>
+            <div class="plan-sign-up">
+                <a href="" class="btn btn----full margin-right-sm">Start eating well</a>
+            </div>
+            
+        </div>
+    </div>
+    <div class="container grid-price">
+        <aside class="plan-details">
+            Prices include all applicable taxes. You can cancel at any time. Both plans include the following:
+        </aside>
+    </div>
+    <div class="container grid grid--4-cols">
+        <div class="feature"><ion-icon class="feature-icon" name="infinite-outline" ></ion-icon>
+            <p class="feature-title">Never cook again!</p>
+            <p class="feature-text">
+              Our subscriptions cover 365 days per year, even including major
+              holidays.
+            </p>
+        </div>
+        <div class="feature">
+            <ion-icon class="feature-icon" name="nutrition-outline"></ion-icon>
+            <p class="feature-title">Local and organic</p>
+            <p class="feature-text">
+              Our cooks only use local, fresh, and organic products to prepare
+              your meals.
+            </p>
+        </div>
+        <div class="feature"><ion-icon class="feature-icon" name="leaf-outline"></ion-icon>
+            <p class="feature-title">No waste</p>
+            <p class="feature-text">
+              All our partners only use reusable containers to package all your
+              meals.
+            </p>
+        </div>
+        <div class="feature"><ion-icon class="feature-icon" name="pause-outline"></ion-icon>
+            <p class="feature-title">Pause anytime</p>
+            <p class="feature-text">
+              Going on vacation? Just pause your subscription, and we refund
+              unused days.
+            </p>
+        </div>
+    </div>
+    </section>
+    <section class="section-cta" id="cta-view">
+        <div class="container">
+            <div class="cta">
+                <div class="cta-text-box">
+                    <h2 class="heading-secondary">Get your first meal for free!</h2>
+                    <p class="cta-text">Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!</p>
+                    <form action="#" class="cta-form" name="sign-in" netlify>
+                        <div>
+                            <label for="full-name">Full name</label>
+                            <input type="text" id="full-name" placeholder="Siran Jeevi" required>
+                        </div>
+                        <div>
+                            <label for="email">Full name</label>
+                            <input type="email" id="email" placeholder="siran@jeevi.com" required>
+                        </div>
+                        <div>
+                            <label for="select-where">Where did you hear from us?</label>
+                            <select name="select-where" id="select-where" required>
+                                <option value="">Please choose one option:</option>
+                                <option value="friends">Friends and family</option>
+                                <option value="">YpuTube</option>
+                                <option value="">Podcast</option>
+                                <option value="">Facebook</option>
+                                <option value="">Others</option>
+                            </select>
+                        </div>
+                        <button class="btn btn--form">Sign up now</button>
+                    </form>
+                </div>
+                <div class="cta-img-box">Image</div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container grid grid--5-cols">
+        <div class="logo-cols">
+                <a href="#logo" class="footer-logo">
+                    <img src="../omnifood/logo/logo.png" alt="logo" class="logo">
+                </a>
+                <ul class="social-links">
+                    <li><a class="footer-link"  href="#"><ion-icon class="social-icon" name="logo-instagram"></ion-icon></a></li>
+                    <li><a class="footer-link"  href="#"><ion-icon class="social-icon" name="logo-facebook"></ion-icon></a></li>
+                    <li><a class="footer-link"  href="#"><ion-icon class="social-icon" name="logo-twitter"></ion-icon></a></li>
+                </ul>
+                <p class="copyrights">Copyright &copy; 2027 by Omnifood, Inc. All rights reversed</p>
+        </div>
+        <div class="address-cols">
+            <p class="footer-heading">Contact us </p>
+            <address class="contacts">
+                <p class="address">623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
+                <p>
+                    <a class="footer-link" href="415-201-6370">415-201-6370</a>
+                    <a class="footer-link" href="hello@omnifood.com">hello@omnifood.com</a>
+                </p>
+            </address>
+        </div>
+        <nav class="nav-col">
+            <p class="footer-heading">Account</p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="#">Create account</a></li>
+                    <li><a class="footer-link" href="#">Sign in</a></li>
+                    <li><a class="footer-link" href="#">iOS app</a></li>
+                    <li><a class="footer-link" href="#">Android app</a></li>
+                </ul>
+        </nav>
+        <nav class="nav-col">
+            <p class="footer-heading">Company</p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="#">About Omnifood</a></li>
+                    <li><a class="footer-link" href="#">For Business</a></li>
+                    <li><a class="footer-link" href="#">Cooking partners</a></li>
+                    <li><a class="footer-link" href="#">Careers</a></li>
+                </ul>
+        </nav>
+        <nav class="nav-col">
+            <p class="footer-heading">Resources</p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="#">Recipe dirctory</a></li>
+                    <li><a class="footer-link" href="#">Help center</a></li>
+                    <li><a  class="footer-link" href="#">Privacy & terms</a></li>
+                </ul>
+        </nav>
+    </div>
+</footer>
+<script src="script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
